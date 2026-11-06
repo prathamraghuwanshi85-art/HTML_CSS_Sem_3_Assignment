@@ -1,0 +1,65 @@
+<!--
+  Name: Anant Pratap Singh
+  Student ID: BCS2025542
+  Institution: Invertis University, Bareilly
+  Course: B.Tech CSE - Second Year
+  Subject: HTML and CSS Introduction Lab (BCS352)
+  Assignment: 13 - Flexbox Layouts
+  Task: 3
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wrapping Cards Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .shop-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .item-card {
+      background-color: #e9ecef;
+      border: 2px solid #457b9d;
+      border-radius: 8px;
+      padding: 16px;
+      width: 160px;
+      text-align: center;
+    }
+    .item-card h4 {
+      margin: 0 0 8px 0;
+      color: #1d3557;
+    }
+    .item-card p {
+      margin: 0;
+      font-weight: bold;
+      color: #2b2d42;
+    }
+  </style>
+</head>
+<body>
+  <h1>Stationery Shop</h1>
+  <div class="shop-row">
+    <div class="item-card">
+      <h4>Notebook</h4>
+      <p>&#8377;60</p>
+    </div>
+    <div class="item-card">
+      <h4>Pen</h4>
+      <p>&#8377;15</p>
+    </div>
+    <div class="item-card">
+      <h4>Bag</h4>
+      <p>&#8377;350</p>
+    </div>
+    <div class="item-card">
+      <h4>Book</h4>
+      <p>&#8377;120</p>
+    </div>
+  </div>
+</body>
+</html>
