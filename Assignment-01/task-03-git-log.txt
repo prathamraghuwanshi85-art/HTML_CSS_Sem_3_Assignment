@@ -1,0 +1,16 @@
+# Name: Anant Pratap Singh
+# Student ID: BCS2025542
+# Institution: Invertis University, Bareilly
+# Course: B.Tech CSE - Second Year
+# Subject: HTML and CSS Introduction Lab (BCS352)
+# Assignment: 1 - Starting a Git Repository
+# Task: 3
+
+$ git add index.html
+$ git commit -m "Add next meeting heading"
+[master a1b2c3d] Add next meeting heading
+ 1 file changed, 1 insertion(+)
+
+$ git log --oneline
+a1b2c3d Add next meeting heading
+f4e5d6c Add home page

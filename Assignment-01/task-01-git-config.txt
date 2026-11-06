@@ -1,0 +1,18 @@
+# Name: Anant Pratap Singh
+# Student ID: BCS2025542
+# Institution: Invertis University, Bareilly
+# Course: B.Tech CSE - Second Year
+# Subject: HTML and CSS Introduction Lab (BCS352)
+# Assignment: 1 - Starting a Git Repository
+# Task: 1
+
+$ mkdir html-lab
+$ cd html-lab
+$ git init
+Initialized empty Git repository in /html-lab/.git/
+$ git config --local user.name "Anant Pratap Singh"
+$ git config --local user.email "anantpratapsingh@invertis.org"
+$ git config user.name
+Anant Pratap Singh
+$ git config user.email
+anantpratapsingh@invertis.org
