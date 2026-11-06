@@ -1,0 +1,42 @@
+<!--
+  Name: Anant Pratap Singh
+  Student ID: BCS2025542
+  Institution: Invertis University, Bareilly
+  Course: B.Tech CSE - Second Year
+  Subject: HTML and CSS Introduction Lab (BCS352)
+  Assignment: 15 - Responsive Pages with Media Queries
+  Task: 3
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Typography</title>
+  <style>
+    body {
+      font-size: 1rem; /* Base 16px */
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 1.5rem; /* Base phone size: 24px */
+      color: #1d3557;
+      transition: font-size 0.3s ease;
+    }
+
+    /* Screen width 600px and up */
+    @media (min-width: 600px) {
+      h1 {
+        font-size: 2.5rem; /* Larger screens: 40px */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Adaptive Heading Size</h1>
+  <p>This paragraph maintains a consistent 1rem font size, while the heading scales smoothly from 1.5rem on mobile to 2.5rem on viewports 600px and wider.</p>
+</body>
+</html>

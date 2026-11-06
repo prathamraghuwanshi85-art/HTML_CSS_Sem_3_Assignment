@@ -1,0 +1,61 @@
+<!--
+  Name: Anant Pratap Singh
+  Student ID: BCS2025542
+  Institution: Invertis University, Bareilly
+  Course: B.Tech CSE - Second Year
+  Subject: HTML and CSS Introduction Lab (BCS352)
+  Assignment: 15 - Responsive Pages with Media Queries
+  Task: 1
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile First Responsive Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 16px;
+    }
+    .cards {
+      display: flex;
+      flex-direction: column; /* Mobile base: Stacked */
+      gap: 16px;
+    }
+    .card {
+      background-color: #f8f9fa;
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #1d3557;
+    }
+
+    /* Screen width 600px and above: Side by side */
+    @media (min-width: 600px) {
+      .cards {
+        flex-direction: row;
+      }
+      .card {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Responsive Cards Layout</h1>
+  <div class="cards">
+    <div class="card">
+      <h2>Web Engineering</h2>
+      <p>Fundamentals of client-server architecture, modern DOM standards, and CSS design frameworks.</p>
+    </div>
+    <div class="card">
+      <h2>Mobile Computing</h2>
+      <p>Responsive design principles, touch gestures, and progressive web application practices.</p>
+    </div>
+  </div>
+</body>
+</html>
