@@ -1,0 +1,15 @@
+# Name: Anant Pratap Singh
+# Student ID: BCS2025542
+# Institution: Invertis University, Bareilly
+# Course: B.Tech CSE - Second Year
+# Subject: HTML and CSS Introduction Lab (BCS352)
+# Assignment: 2 - Pushing and Cloning a Repository
+# Task: 2
+
+$ git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 520 bytes | 520.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+To ../html-remote
+ * [new branch]      main -> main

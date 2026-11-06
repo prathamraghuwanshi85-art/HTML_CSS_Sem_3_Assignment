@@ -1,0 +1,16 @@
+# Name: Anant Pratap Singh
+# Student ID: BCS2025542
+# Institution: Invertis University, Bareilly
+# Course: B.Tech CSE - Second Year
+# Subject: HTML and CSS Introduction Lab (BCS352)
+# Assignment: 2 - Pushing and Cloning a Repository
+# Task: 3
+
+$ cd ..
+$ git clone html-remote html-copy
+Cloning into 'html-copy'...
+done.
+$ cd html-copy
+$ git log --oneline
+a1b2c3d Add next meeting heading
+f4e5d6c Add home page
