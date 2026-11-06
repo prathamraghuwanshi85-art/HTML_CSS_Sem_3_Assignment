@@ -1,0 +1,61 @@
+<!--
+  Name: Anant Pratap Singh
+  Student ID: BCS2025542
+  Institution: Invertis University, Bareilly
+  Course: B.Tech CSE - Second Year
+  Subject: HTML and CSS Introduction Lab (BCS352)
+  Assignment: 14 - CSS Grid Layouts
+  Task: 3
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Grid Areas</title>
+  <style>
+    .dashboard {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+      gap: 10px;
+      min-height: 400px;
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      grid-area: header;
+      background-color: #1d3557;
+      color: white;
+      padding: 16px;
+    }
+    .sidebar {
+      grid-area: sidebar;
+      background-color: #f1faee;
+      border: 1px solid #a8dadc;
+      padding: 16px;
+    }
+    .main {
+      grid-area: main;
+      background-color: #e9ecef;
+      padding: 16px;
+    }
+    .footer {
+      grid-area: footer;
+      background-color: #1d3557;
+      color: white;
+      padding: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="header">Dashboard Header (Spans Both Columns)</div>
+    <div class="sidebar">Sidebar (200px width)</div>
+    <div class="main">Main Analytics &amp; Reports Content (1fr fluid)</div>
+    <div class="footer">Dashboard Footer (Spans Both Columns)</div>
+  </div>
+</body>
+</html>
